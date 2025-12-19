@@ -1,0 +1,79 @@
+/* Style.css */
+
+/* Ajuste no Card para centralizar e dar o tamanho correto */
+.card {
+    background-color: #FFFFFF;
+    width: 320px; 
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* Ajuste na imagem para ela ocupar o card corretamente */
+.card-header {
+    background-color: #2C7DFA;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img {
+    width: 100%; /* A imagem preenche o fundo azul */
+    display: block;
+}
+
+/* O segredo da quebra de linha está no padding lateral aqui */
+.card-body {
+    padding: 0 12px 24px 12px; /* Reduzi o padding lateral para o texto ter espaço */
+}
+
+.titulo-projeto {
+    color: #1F314F;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    /* Removi o margin-top exagerado */
+}
+
+.descricao-projeto {
+    color: #7D889E;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 0 10px; /* Isso empurra as laterais do texto para ele quebrar */
+}
+
+/* Style.css */
+
+/* O segredo para centralizar tudo na tela */
+body {
+    background-color: #D5E1EF;
+    display: flex; /* Ativa o modo flexível */
+    justify-content: center; /* Centraliza horizontalmente (esquerda/direita) */
+    align-items: center; /* Centraliza verticalmente (cima/baixo) */
+    min-height: 100vh; /* Define que o corpo tem 100% da altura da tela */
+    margin: 0;
+}
+
+/* Garante que o contêiner principal ocupe o espaço necessário */
+.container-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* O card agora ficará exatamente no centro */
+.card {
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center; /* Centraliza o texto dentro do card */
+}
