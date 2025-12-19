@@ -1,0 +1,88 @@
+/* Importando a fonte oficial */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+body {
+    background-color: #F4D03F; /* Amarelo do fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Criando a estrutura do Card */
+.card {
+    background-color: #FFFFFF;
+    max-width: 384px;
+    padding: 24px;
+    border: 1px solid #111111;
+    border-radius: 20px;
+    /* Sombra sólida sem desfoque */
+    box-shadow: 8px 8px 0px 0px #111111;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+/* Estilo dos textos internos */
+.category {
+    background-color: #F4D03F;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+.date {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: #F4D03F;
+}
+
+.description {
+    color: #7F7F7F;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+/* Alinhamento do Autor */
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.author span {
+    font-weight: 800;
+}
